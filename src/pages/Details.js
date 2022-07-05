@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 const Details = () => (
   <>
-    <Header />
+    <Header heading="City" />
     <div>Details</div>
   </>
 );
