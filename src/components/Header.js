@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Header.module.css';
 
 const Header = (props) => {
-  const { heading } = props
+  const { heading } = props;
   return (
     <header>
       <i className={styles.previous} />

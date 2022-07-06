@@ -17,6 +17,6 @@ const App = () => (
       <Route path="*" element={<NoPage />} />
     </Routes>
   </Router>
-)
+);
 
 export default App;
