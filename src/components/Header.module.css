@@ -1,0 +1,50 @@
+:root {
+  --primary: #fd5092;
+  --secondary: #ec4c8a;
+  --text: #fff;
+}
+
+header {
+  background-color: var(--secondary);
+  color: var(--text);
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.previous,
+.mic,
+.settings {
+  width: 20px;
+  height: 20px;
+  display: block;
+  filter: invert(1);
+}
+.previous {
+  background: url(../assets/icons/previous.png) no-repeat center center/cover;
+}
+
+.mic {
+  background: url(../assets/icons/microphone.png) no-repeat center center/cover;
+}
+
+.settings {
+  background: url(../assets/icons/setting.png) no-repeat center center/cover;
+}
+
+i { transition: all 0.3s ease-out; }
+
+i:active { filter: invert(0.20); }
+
+.settings:hover { transform: rotate(90deg) }
