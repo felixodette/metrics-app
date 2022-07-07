@@ -36,8 +36,8 @@ const Heading = (props) => {
       <h1>{title}</h1>
       {
         (home) ? (
-          <select className={styles.filter}>
-            <option selected disabled>__Filter Countries by Region__</option>
+          <select defaultValue="all" className={styles.filter}>
+            <option value="all" disabled>__Filter Countries by Region__</option>
             {regions.map((region) => (
               <option key={region.value} value={region.value}>{region.name}</option>
             ))}
