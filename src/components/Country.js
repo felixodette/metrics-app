@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Country.module.css';
 
-const Country = (props) => {
+function Country(props) {
   const { name, number, vector } = props;
 
   return (
@@ -15,7 +15,7 @@ const Country = (props) => {
       </div>
     </div>
   );
-};
+}
 
 export default Country;
 
