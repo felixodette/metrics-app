@@ -31,6 +31,7 @@ header h3 {
   display: block;
   filter: invert(1);
 }
+
 .previous {
   background: url(../assets/icons/previous.png) no-repeat center center/cover;
 }
@@ -45,6 +46,6 @@ header h3 {
 
 i { transition: all 0.3s ease-out; }
 
-i:active { filter: invert(0.20); }
+i:active { filter: invert(0.2); }
 
-.settings:hover { transform: rotate(90deg) }
+.settings:hover { transform: rotate(90deg); }
