@@ -1,0 +1,10 @@
+:root {
+  --primary: #fd5092;
+}
+
+.heading {
+  background: var(--primary) url(../assets/worldmap.png);
+  background-size: 100% 100%;
+  height: 50vw;
+  min-height: 150px;
+}
