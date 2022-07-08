@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# React Based Weather App
+This app has 3 pages:
+- `Home` with a list of countries that can be filtered by region
+- `Cities` page with a list of cities for the selected country
+- `Details` page with the weather details. 
+The app gets the data from the [OpenWeather](https://openweathermap.org/api) api.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
