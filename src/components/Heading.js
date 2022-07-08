@@ -1,8 +1,8 @@
 import React from 'react';
-import { useDispatch } from "react-redux/es/exports";
+import { useDispatch } from 'react-redux/es/exports';
 import PropTypes from 'prop-types';
 import styles from './Heading.module.css';
-import { filterCountries} from "../redux/countries/countries";
+import { filterCountries } from '../redux/countries/countries';
 
 const Heading = (props) => {
   const dispatch = useDispatch();
