@@ -31,3 +31,28 @@
     grid-template-columns: repeat(6, 1fr);
   }
 }
+
+.cities_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.cities_wrapper a {
+  text-decoration: none;
+  background-color: var(--secondary);
+}
+
+.cities_wrapper a:nth-child(even) {
+  background-color: var(--tertiary);
+}
+
+.right_arrow {
+ background: url(./assets/icons/right_arrow.png) no-repeat center center/cover;
+ width: 20px;
+ height: 20px;
+ display: block;
+ filter: invert(1);
+ position: absolute;
+ right: 5px;
+ top: 5px;
+}

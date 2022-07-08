@@ -6,14 +6,21 @@ import Heading from '../components/Heading';
 
 const Home = () => {
   const countries = useSelector((state) => state.updateCountries);
+
   return (
     <>
-      <Header heading="Weather"/>
+      <Header previous="" heading="Weather" />
       <section>
-        <Heading home title="Weather"/>
+        <Heading home title="Metrics | Weather" />
         <div className="countries">
           { countries.map((country) => (
-            <Country key={country.name} number={country.cities.number} vector={country.map} />
+            <Country
+              key={country.name}
+              number={country.cities.length}
+              name={country.name}
+              vector={country.map}
+              cities={country.cities}
+            />
           ))}
         </div>
       </section>
