@@ -1,11 +1,34 @@
 # React Based Weather App
-This app has 3 pages:
+This educational project is to bulid a mobile web app to check a list of metrics using React and Redux.
+An API that provides numeric data about a chosen topic is selected, and an app built around it. The app has 3 pages:
 - `Home` with a list of countries that can be filtered by region
 - `Cities` page with a list of cities for the selected country
 - `Details` page with the weather details. 
 The app gets the data from the [OpenWeather](https://openweathermap.org/api) api.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Learning Objectives
+- [x] Using React Documentation
+- [x] Using Redux Documentation
+- [x] Using React Router Documentation
+- [x] Using React Bootstrap Documentation
+- [x] Connect React and Redux
+- [x] Using React Router
+- [x] Handle events in React
+- [x] Integration testing
+- [x] Using styles in React
+- [x] Using React life cycle methods
+- [x] Apply React best practices and language styles
+
+## Project Feature Description
+- [x] [Presentation video]()
+
+## Built With
+- [x] [React](https://reactjs.org/)
+- [x] [Redux](https://redux.js.org/)
+- [x] [React Router](https://reacttraining.com/react-router/web)
+- [x] [HTML5](https://html5.com/)
+- [x] [CSS]()
+- [X] Editor [WebStorm](https://idea.intellij.net/)
 
 ## Available Scripts
 
