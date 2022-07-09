@@ -6,6 +6,14 @@ An API that provides numeric data about a chosen topic is selected, and an app b
 - `Details` page with the weather details. 
 The app gets the data from the [OpenWeather](https://openweathermap.org/api) api.
 
+## Built With
+- [x] [React](https://reactjs.org/)
+- [x] [Redux](https://redux.js.org/)
+- [x] [React Router](https://reacttraining.com/react-router/web)
+- [x] [HTML5](https://html5.com/)
+- [x] [CSS]()
+- [X] Editor [WebStorm](https://idea.intellij.net/)
+
 ## Learning Objectives
 - [x] Using React Documentation
 - [x] Using Redux Documentation
@@ -22,15 +30,11 @@ The app gets the data from the [OpenWeather](https://openweathermap.org/api) api
 ## Project Feature Description
 - [x] [Presentation video]()
 
-## Built With
-- [x] [React](https://reactjs.org/)
-- [x] [Redux](https://redux.js.org/)
-- [x] [React Router](https://reacttraining.com/react-router/web)
-- [x] [HTML5](https://html5.com/)
-- [x] [CSS]()
-- [X] Editor [WebStorm](https://idea.intellij.net/)
+## Live Demo
+- [x] [Live Demo Link](https://62c96a95ac1c7d5e4b874e3a--luminous-kulfi-ddf7f5.netlify.app)
 
-## Available Scripts
+
+## Getting Started
 
 In the project directory, you can run:
 
@@ -57,42 +61,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Authors
+👤 Felix Odete
+* GitHub: @felixodette
+* Twitter: @Odette3000
+* [LinkedIn](https://www.linkedin.com/in/felixodete)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to check the issues page.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Show your support
+Give a ⭐️ if you like this project!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Acknowledgments
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
 
-## Learn More
+📝 License
+* MIT
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

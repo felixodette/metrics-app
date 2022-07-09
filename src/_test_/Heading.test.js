@@ -3,15 +3,15 @@ import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import store from '../redux/configureStore';
-import City from '../components/City';
+import Heading from '../components/Heading';
 
-describe('City component test', () => {
-  it('Renders City', () => {
+describe('Heading component test', () => {
+  it('Renders Heading', () => {
     const country = renderer
       .create(
         <Provider store={store}>
           <Router>
-            <City title="test" lat="50" long="50" />
+            <Heading title="weather" />
           </Router>
         </Provider>,
       )

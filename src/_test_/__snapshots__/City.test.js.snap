@@ -1,20 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Create header Render without errors 1`] = `
-<header>
-  <span />
-  <h3>
+exports[`City component test Renders City 1`] = `
+<a
+  className="city"
+  href="/details"
+  onClick={[Function]}
+>
+  <span>
     test
-  </h3>
+  </span>
   <div
-    className="icons"
+    className="info"
   >
+    <span>
+      AQI: 1
+    </span>
     <i
-      className="mic"
-    />
-    <i
-      className="settings"
+      className="right_arrow"
     />
   </div>
-</header>
+</a>
 `;
