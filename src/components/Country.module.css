@@ -1,0 +1,38 @@
+:root {
+  --primary: #fd5092;
+  --secondary1: #ec4c8a;
+  --secondary2: #d63e79;
+}
+
+.wrapper {
+  background: var(--secondary2);
+  position: relative;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper:nth-child(3n-2) {
+  background-color: var(--secondary);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 3px;
+}
+
+.info span {
+  align-self: flex-end;
+}
+
+.map {
+  display: flex;
+  min-width: 180px;
+  min-height: 150px;
+  filter: brightness(0);
+  opacity: 0.5;
+}
