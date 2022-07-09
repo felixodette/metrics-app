@@ -7,7 +7,7 @@
 - Stylelint, Web Hint, Lighthouse
 - Eslint, Prettier
 ## Video Demo
-[Video Demo]()
+[Video Demo](https://www.loom.com/share/ad14f5c9412f464d874a5a481c8e4c17)
 ## Live Demo
 [Live Demo Link](https://62c96a95ac1c7d5e4b874e3a--luminous-kulfi-ddf7f5.netlify.app)
 ## Getting Started
