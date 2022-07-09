@@ -22,7 +22,7 @@ describe('Create header', () => {
         <Header heading="test" previous="" />
       </Router>,
     );
-    const element = screen.getByText('testu');
+    const element = screen.getByText('test');
     expect(element).toBeInTheDocument();
   });
 });
